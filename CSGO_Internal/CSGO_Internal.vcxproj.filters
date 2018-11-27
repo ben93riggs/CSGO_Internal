@@ -1,0 +1,1159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SourceEngine">
+      <UniqueIdentifier>{1c04a4ea-c613-45b4-a7f1-e62fcb0859c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks">
+      <UniqueIdentifier>{859565b6-3f4f-4994-886e-5a2b48db5364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features">
+      <UniqueIdentifier>{82acfb93-c4b5-45ef-9df5-2c137b4c1ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\CreateMove">
+      <UniqueIdentifier>{a65d116f-b114-4038-9b63-ce124d03e1e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\DrawModelExecute">
+      <UniqueIdentifier>{9b43660b-95bd-4658-bc96-5add66c48d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\EmitSound">
+      <UniqueIdentifier>{fbb30e0b-d111-4e0b-bf04-fa621decbb68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\FireBullets">
+      <UniqueIdentifier>{2a6079e4-a4ac-41f1-96f2-58d709bbd1c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\FireEvent">
+      <UniqueIdentifier>{63f01bb5-4098-4e93-a1f5-b8a688767323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\FrameStageNotify">
+      <UniqueIdentifier>{23d81560-895d-4521-880f-7cd369a50384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\GetViewModelFOV">
+      <UniqueIdentifier>{9c4b59fd-2bb2-4c1e-8ff7-58ac236a286d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\OverrideView">
+      <UniqueIdentifier>{8c6d6992-010f-4f2e-ab7c-ad9089c4708a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\PaintTraverse">
+      <UniqueIdentifier>{d6c78187-6fd0-4283-b058-e25099827fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\PlaySound">
+      <UniqueIdentifier>{7548d3d7-a30c-4fca-a930-713703604376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\RunCommand">
+      <UniqueIdentifier>{f852f0be-d066-4f54-b660-7ec01d9f2c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\AimBot">
+      <UniqueIdentifier>{a121f4ac-5bba-445b-9a41-6da9bda89e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\AirStuck">
+      <UniqueIdentifier>{4931e1cf-e26f-4bb7-a697-5f10e286db06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\AntiAim">
+      <UniqueIdentifier>{d3ba949f-ab39-4c41-9bf8-fc3f9230015f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\AutoAccept">
+      <UniqueIdentifier>{ba2e3ba4-3df1-446d-b367-2c11d6ed4332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\AutoPistol">
+      <UniqueIdentifier>{bfbd4d22-1ced-4d97-acf3-e9e50241550d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Autowall">
+      <UniqueIdentifier>{b0656582-1334-4510-8ce6-c32c741704d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\BHop">
+      <UniqueIdentifier>{ba8f60c1-b628-4007-bbfb-74e15113f151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Chams">
+      <UniqueIdentifier>{86028513-4c98-4f45-9e91-d04abbab1b04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\ClanTag">
+      <UniqueIdentifier>{838d13d1-1be3-4250-b3d5-8b9490c1f997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\ESP">
+      <UniqueIdentifier>{6e9158f0-27d6-402b-b31c-1fdedca4314c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\FakeLag">
+      <UniqueIdentifier>{316593ee-bf15-44d7-8e9a-ec15bb500251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Glow">
+      <UniqueIdentifier>{bac23ff9-288d-467f-811b-1416e1770f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\NadeTracer">
+      <UniqueIdentifier>{2a098b58-8d8f-45c3-a016-e5b24180c616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\NoVisualRecoil">
+      <UniqueIdentifier>{b56897ed-a590-44db-84ba-9c64e0a4ab07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\PVSFix">
+      <UniqueIdentifier>{c9142018-28e5-49e8-a254-054a5d9113e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\RCS">
+      <UniqueIdentifier>{b0abbc83-482c-47f1-a38d-e6203f2e7f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Resolver">
+      <UniqueIdentifier>{1331d68c-9d3b-45f4-a332-48602e72f661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\SkinChanger">
+      <UniqueIdentifier>{75f8c71b-d606-4050-834c-f64e3880b45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Spammers">
+      <UniqueIdentifier>{881aa889-fc6e-4105-ab9c-ab1e376a39de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\ThirdPerson">
+      <UniqueIdentifier>{e062634d-3600-421b-8b94-ed87db1e658b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Triggerbot">
+      <UniqueIdentifier>{75adee90-749e-4fdb-b43c-132c219ec8d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\WorldChams">
+      <UniqueIdentifier>{42b6b6a8-48c7-4e8b-8887-f1d0f9bd1d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\WorldModifications">
+      <UniqueIdentifier>{410e7e30-1d7a-41ef-b35d-05dd83fb93f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Globals">
+      <UniqueIdentifier>{a94a662c-d0ae-497d-bb16-bc9779bdad95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{379e15da-87ef-4cca-b424-5df8e890be1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\NoSmoke">
+      <UniqueIdentifier>{179b19cf-7713-43cb-a134-13ce63a1d03a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\RankRevealer">
+      <UniqueIdentifier>{f74617a9-f692-4c31-a19c-d0c1964f800f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\SkinChanger\Utilities">
+      <UniqueIdentifier>{5724f766-9129-4561-a91b-81a511b95d1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Other">
+      <UniqueIdentifier>{4b0499d5-0ab3-419f-b2c4-c4d0291e51c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Authorization">
+      <UniqueIdentifier>{85ac5265-9064-42ee-96e6-459a3e57f60a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\NoSpread">
+      <UniqueIdentifier>{a028e012-53fc-48e1-8044-049cf7543f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Protections">
+      <UniqueIdentifier>{8a098bdb-29f0-4937-a862-43a0d8624b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Protections\HWID">
+      <UniqueIdentifier>{8f6b5472-682c-4c81-aed7-94476d914f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Protections\JSON">
+      <UniqueIdentifier>{dcfb1a52-5bd0-4eca-87b2-9abd740607e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Protections\CNetwork">
+      <UniqueIdentifier>{c539ce6d-9ba0-46a0-8818-5f25cdf90ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{10d37b9a-dc17-48f8-83cf-bcabbb9b014b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\ImGui">
+      <UniqueIdentifier>{2180b264-4cb7-4f01-9c51-307538977d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{12c86e0d-5706-47f5-bd81-41225273fc50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Other\MD5">
+      <UniqueIdentifier>{8b2320fc-3286-4b07-9eb6-1e3fb39bb0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\NameStealer">
+      <UniqueIdentifier>{61fd8cf4-eb95-4bbf-a1a6-130c51dc8e0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\BulletTracer">
+      <UniqueIdentifier>{6a433a8a-c6cf-4d25-a4ee-896804a6e0fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\WeaponConfigs">
+      <UniqueIdentifier>{b6a9421d-4b99-4cbf-ad3a-7d0c60d0a5f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\MoveFix">
+      <UniqueIdentifier>{196a03fc-a3f5-44e1-be8d-822430a70517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\SetKeyCodeState">
+      <UniqueIdentifier>{f5dffed9-20a7-4158-8e1e-480f0ba7d5e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\SetMouseCodeState">
+      <UniqueIdentifier>{15107668-8113-4f2f-bf05-755c5940e771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\LagFix">
+      <UniqueIdentifier>{2d90fb0a-cc31-4a6c-bab3-7e438199628c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\GrenadePrediction">
+      <UniqueIdentifier>{a8f4cf2f-c015-479d-af37-e68255e17c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\FOV">
+      <UniqueIdentifier>{6b39c2e5-01bc-4a03-8d8a-97e2afe7126c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\RecoilCrosshair">
+      <UniqueIdentifier>{e9e76551-e1f3-482c-bdab-ba13d377b9a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\IsPlayingTimeDemo">
+      <UniqueIdentifier>{739da0d5-8aa9-4971-8261-80f166745105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\NetvarHooks">
+      <UniqueIdentifier>{a59e7a17-e5ca-41fe-8475-bff4c05114a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\AALines">
+      <UniqueIdentifier>{7f94d741-2872-4d00-a9fa-94b1dc739659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\SpectatorList">
+      <UniqueIdentifier>{10ea25b2-3036-49fc-b6df-96ee60a5d51c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\AimBot\Legitbot">
+      <UniqueIdentifier>{4f688b89-ece5-46ac-9333-c045a0cd8c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\AimBot\Ragebot">
+      <UniqueIdentifier>{83d2bd9e-f19f-4609-89c5-63881c6420bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\NoFlash">
+      <UniqueIdentifier>{1da8f40c-6619-40f7-8a9e-514b3a620704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\NoScope">
+      <UniqueIdentifier>{153c1817-7ad9-432a-8ddf-43269767e3f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\AimBot\NoSpreadBot">
+      <UniqueIdentifier>{443dddd3-257f-4835-a155-b298269dad53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Radar">
+      <UniqueIdentifier>{65324fc5-9d5a-4fa2-be8d-2e01f0df3d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Knifebot">
+      <UniqueIdentifier>{fdf051c9-2bf4-41dd-af74-b68639c744c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\DrawModel">
+      <UniqueIdentifier>{9893d6ee-ca0a-4b3b-a160-f43fb424b67e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\DoPostScreenSpaceEffects">
+      <UniqueIdentifier>{5ddf740b-8c03-4ced-ba78-22d445f79532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\LagCompensation">
+      <UniqueIdentifier>{f188f78c-ac88-4860-8569-524ab4f808f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\EnginePrediction">
+      <UniqueIdentifier>{81f70522-ea41-40de-8ab9-ec89a8f0207e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\SceneEnd">
+      <UniqueIdentifier>{cf8ccb0d-a7ad-4c2e-a50a-3850b45b1e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\FakeWalk">
+      <UniqueIdentifier>{4b78467d-1c52-44bb-a2f7-f3250cf4bede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\TraceRay">
+      <UniqueIdentifier>{20f1f31b-6574-4cea-a846-8173a6ffb2c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\AutoWallCrosshair">
+      <UniqueIdentifier>{200e6b7e-fc71-4c78-8ca5-42c76eceb652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\AnimationHandler">
+      <UniqueIdentifier>{b4bc5087-bc13-424b-8bf5-20537891bb47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\ASUSWalls">
+      <UniqueIdentifier>{cc3961c8-7e3f-4d81-bb33-d966d438dd25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceEngine\Interfaces">
+      <UniqueIdentifier>{f49b1597-6fe2-42fb-987e-6258d5667c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\SendDatagram">
+      <UniqueIdentifier>{aadc5ea9-131f-402a-9494-ad460026d338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\RebuildGameMovement">
+      <UniqueIdentifier>{348ecdca-a393-4e62-a553-bf442307c615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\PunchAngleFix">
+      <UniqueIdentifier>{6b110624-8a0b-402b-9f8e-e360ffbbe7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\TickFix">
+      <UniqueIdentifier>{c1b09db0-5109-4954-9b64-73a7eee15454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\TempEntities">
+      <UniqueIdentifier>{40d32755-80f5-4c09-bdb3-0a857b834e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\Fonts">
+      <UniqueIdentifier>{3e49e3ac-a57c-4e59-b16b-3a75499b9f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\Images">
+      <UniqueIdentifier>{0a843b03-db2a-464f-8487-bc2d9f67ebf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Freestanding">
+      <UniqueIdentifier>{e332d998-2e63-4b1b-9f1c-cd5860a9e7ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\CustomSky">
+      <UniqueIdentifier>{626d977c-d660-43a3-9ebc-c623b9b50c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\DisableInterp">
+      <UniqueIdentifier>{29c32b71-f0fe-41ac-a23f-72f02e8dd3e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\CVarManager">
+      <UniqueIdentifier>{6be63f64-f53f-4f31-a528-26b51dc86897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\OnScreenSizeChanged">
+      <UniqueIdentifier>{a6ad4b4b-6ff2-4946-96e7-1eb37eb81b94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\ClosestToCrosshair">
+      <UniqueIdentifier>{3ba1a35b-7987-4ddd-8e15-e4f40e8bf69c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\SetupBones">
+      <UniqueIdentifier>{3f5ad603-6810-4871-a2fd-b8e09623aad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Accuracy">
+      <UniqueIdentifier>{cfbefb76-0a07-4204-a5ee-9259381cc1ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\InPrediction">
+      <UniqueIdentifier>{d3ee4422-aef9-452d-a340-a831eb62e288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\DirectX">
+      <UniqueIdentifier>{04fe28cf-28be-448b-bd83-4620555744c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\DeveloperMessages">
+      <UniqueIdentifier>{52a04991-156f-4bd4-96ef-857775057931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\BuyBot">
+      <UniqueIdentifier>{f7706261-4162-4cde-9d0d-ca8002697d52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceEngine\CHandle.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\ClientClass.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Color.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Convar.h">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\CRC.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Definitions.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IAppSystem.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IBaseClientDll.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IClientEntity.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IClientEntityList.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IClientNetworkable.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IClientRenderable.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IClientThinkable.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IClientUnknown.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IConVar.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\ICvar.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IHandleEntity.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IPanel.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IVEngineClient.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\PlayerInfo.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\QAngle.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Recv.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Vector.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Vector2D.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Vector4D.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\VMatrix.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IPhysicsSurfaceProps.h">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IPrediction.h">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IVModelRender.h">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IVModelInfo.h">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IVRenderView.h">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEvents.h">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="UtlString.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="UtlMemory.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SpoofedConvar.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ICollideable.h">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IInputSystem.h">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Protections\NoDebug.h">
+      <Filter>Source Files\Protections</Filter>
+    </ClInclude>
+    <ClInclude Include="Protections\POSTChecks.h">
+      <Filter>Source Files\Protections</Filter>
+    </ClInclude>
+    <ClInclude Include="Protections\VirtualizerSDK.h">
+      <Filter>Source Files\Protections</Filter>
+    </ClInclude>
+    <ClInclude Include="Protections\HWID\disphelper.h">
+      <Filter>Source Files\Protections\HWID</Filter>
+    </ClInclude>
+    <ClInclude Include="GlowManager.h">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="JSON\json.h">
+      <Filter>Source Files\Protections\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="JSON\json-forwards.h">
+      <Filter>Source Files\Protections\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="Protections\CNetwork\Network.h">
+      <Filter>Source Files\Protections\CNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\CreateMove.h">
+      <Filter>Source Files\Hooks\CreateMove</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\DrawModelExecute.h">
+      <Filter>Source Files\Hooks\DrawModelExecute</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\FireBullets.h">
+      <Filter>Source Files\Hooks\FireBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\FireEventClientSide.h">
+      <Filter>Source Files\Hooks\FireEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\FrameStageNotify.h">
+      <Filter>Source Files\Hooks\FrameStageNotify</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\OverrideView.h">
+      <Filter>Source Files\Hooks\OverrideView</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\PaintTraverse.h">
+      <Filter>Source Files\Hooks\PaintTraverse</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\PlaySound.h">
+      <Filter>Source Files\Hooks\PlaySound</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\RunCommand.h">
+      <Filter>Source Files\Hooks\RunCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Source Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadLibraryHook.h">
+      <Filter>Source Files\Protections</Filter>
+    </ClInclude>
+    <ClInclude Include="EmitAmbientSound.h">
+      <Filter>Source Files\Hooks\EmitSound</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Source Files\Menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.hpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="AirStuck.h">
+      <Filter>Source Files\Features\AirStuck</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAim.h">
+      <Filter>Source Files\Features\AntiAim</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoPistol.h">
+      <Filter>Source Files\Features\AutoPistol</Filter>
+    </ClInclude>
+    <ClInclude Include="Autowall.h">
+      <Filter>Source Files\Features\Autowall</Filter>
+    </ClInclude>
+    <ClInclude Include="BHop.h">
+      <Filter>Source Files\Features\BHop</Filter>
+    </ClInclude>
+    <ClInclude Include="Chams.h">
+      <Filter>Source Files\Features\Chams</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityESP.hpp">
+      <Filter>Source Files\Features\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="ClanTag.h">
+      <Filter>Source Files\Features\ClanTag</Filter>
+    </ClInclude>
+    <ClInclude Include="FakeLag.h">
+      <Filter>Source Files\Features\FakeLag</Filter>
+    </ClInclude>
+    <ClInclude Include="Glow.h">
+      <Filter>Source Files\Features\Glow</Filter>
+    </ClInclude>
+    <ClInclude Include="NadeTracer.h">
+      <Filter>Source Files\Features\NadeTracer</Filter>
+    </ClInclude>
+    <ClInclude Include="NoVisualRecoil.h">
+      <Filter>Source Files\Features\NoVisualRecoil</Filter>
+    </ClInclude>
+    <ClInclude Include="PVSFix.h">
+      <Filter>Source Files\Features\PVSFix</Filter>
+    </ClInclude>
+    <ClInclude Include="RCS.h">
+      <Filter>Source Files\Features\RCS</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolver.h">
+      <Filter>Source Files\Features\Resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Spammers.h">
+      <Filter>Source Files\Features\Spammers</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPerson.h">
+      <Filter>Source Files\Features\ThirdPerson</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPersonAA.h">
+      <Filter>Source Files\Features\ThirdPerson</Filter>
+    </ClInclude>
+    <ClInclude Include="Triggerbot.h">
+      <Filter>Source Files\Features\Triggerbot</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldChams.h">
+      <Filter>Source Files\Features\WorldChams</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldModifications.h">
+      <Filter>Source Files\Features\WorldModifications</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Source Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CSPlayer.h">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="NoSmoke.h">
+      <Filter>Source Files\Features\NoSmoke</Filter>
+    </ClInclude>
+    <ClInclude Include="RankRevealer.h">
+      <Filter>Source Files\Features\RankRevealer</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinConfiguration.h">
+      <Filter>Source Files\Features\SkinChanger</Filter>
+    </ClInclude>
+    <ClInclude Include="KitParser.h">
+      <Filter>Source Files\Features\SkinChanger</Filter>
+    </ClInclude>
+    <ClInclude Include="ILocalize.h">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="FnvHash.h">
+      <Filter>Source Files\Features\SkinChanger\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemDefinitions.h">
+      <Filter>Source Files\Features\SkinChanger</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinChanger.h">
+      <Filter>Source Files\Features\SkinChanger</Filter>
+    </ClInclude>
+    <ClInclude Include="StickerChanger.h">
+      <Filter>Source Files\Features\SkinChanger</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListeners.h">
+      <Filter>Source Files\Hooks\FireEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Source Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth.h">
+      <Filter>Source Files\Authorization</Filter>
+    </ClInclude>
+    <ClInclude Include="BombDamage.h">
+      <Filter>Source Files\Features\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawManager.hpp">
+      <Filter>Source Files\Features\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="NetvarManager.hpp">
+      <Filter>Source Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="NoSpread.h">
+      <Filter>Source Files\Features\NoSpread</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Source Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="VFTableHook.hpp">
+      <Filter>Source Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.hpp">
+      <Filter>Source Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="checksum_md5.h">
+      <Filter>Source Files\Other\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="NameStealer.h">
+      <Filter>Source Files\Features\NameStealer</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletTracer.h">
+      <Filter>Source Files\Features\BulletTracer</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponConfigs.h">
+      <Filter>Source Files\Features\WeaponConfigs</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveFix.h">
+      <Filter>Source Files\Features\MoveFix</Filter>
+    </ClInclude>
+    <ClInclude Include="SetMouseCodeState.h">
+      <Filter>Source Files\Hooks\SetMouseCodeState</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyState.h">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\SetKeyCodeState.h">
+      <Filter>Source Files\Hooks\SetKeyCodeState</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoAccept.h">
+      <Filter>Source Files\Features\AutoAccept</Filter>
+    </ClInclude>
+    <ClInclude Include="LagFix.h">
+      <Filter>Source Files\Features\LagFix</Filter>
+    </ClInclude>
+    <ClInclude Include="GrenadePrediction.h">
+      <Filter>Source Files\Features\GrenadePrediction</Filter>
+    </ClInclude>
+    <ClInclude Include="FOVChanger.h">
+      <Filter>Source Files\Features\FOV</Filter>
+    </ClInclude>
+    <ClInclude Include="RecoilCrosshair.h">
+      <Filter>Source Files\Features\RecoilCrosshair</Filter>
+    </ClInclude>
+    <ClInclude Include="NetvarHooks.h">
+      <Filter>Source Files\Hooks\NetvarHooks</Filter>
+    </ClInclude>
+    <ClInclude Include="AALines.h">
+      <Filter>Source Files\Features\AALines</Filter>
+    </ClInclude>
+    <ClInclude Include="SpectatorList.h">
+      <Filter>Source Files\Features\SpectatorList</Filter>
+    </ClInclude>
+    <ClInclude Include="Legitbot.h">
+      <Filter>Source Files\Features\AimBot\Legitbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Ragebot.h">
+      <Filter>Source Files\Features\AimBot\Ragebot</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Source Files\Features\AimBot</Filter>
+    </ClInclude>
+    <ClInclude Include="NoFlash.h">
+      <Filter>Source Files\Features\NoFlash</Filter>
+    </ClInclude>
+    <ClInclude Include="NoScope.h">
+      <Filter>Source Files\Features\NoScope</Filter>
+    </ClInclude>
+    <ClInclude Include="NoSpreadBot.h">
+      <Filter>Source Files\Features\AimBot\NoSpreadBot</Filter>
+    </ClInclude>
+    <ClInclude Include="Radar.h">
+      <Filter>Source Files\Features\Radar</Filter>
+    </ClInclude>
+    <ClInclude Include="Knifebot.h">
+      <Filter>Source Files\Features\Knifebot</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawModel.h">
+      <Filter>Source Files\Hooks\DrawModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\DoPostScreenSpaceEffects.h">
+      <Filter>Source Files\Hooks\DoPostScreenSpaceEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IMaterial.h">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="LagCompensation.h">
+      <Filter>Source Files\Features\LagCompensation</Filter>
+    </ClInclude>
+    <ClInclude Include="PredictionSystem.h">
+      <Filter>Source Files\Features\EnginePrediction</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\SceneEnd.h">
+      <Filter>Source Files\Hooks\SceneEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="FakeWalk.h">
+      <Filter>Source Files\Features\FakeWalk</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\IsPlayingTimeDemo.h">
+      <Filter>Source Files\Hooks\IsPlayingTimeDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="TraceRay.h">
+      <Filter>Source Files\Hooks\TraceRay</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoWallCrosshair.h">
+      <Filter>Source Files\Features\AutoWallCrosshair</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationHandler.h">
+      <Filter>Source Files\Features\AnimationHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="ASUSWalls.h">
+      <Filter>Source Files\Features\ASUSWalls</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\CInput.hpp">
+      <Filter>SourceEngine\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK.hpp">
+      <Filter>SourceEngine\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IVDebugOverlay.h">
+      <Filter>SourceEngine\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ISteamHTTP.h">
+      <Filter>SourceEngine\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\ISurface.hpp">
+      <Filter>SourceEngine\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IMaterialSystem.h">
+      <Filter>SourceEngine\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IClientMode.hpp">
+      <Filter>SourceEngine\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IEngineTrace.hpp">
+      <Filter>SourceEngine\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngineSound.h">
+      <Filter>SourceEngine\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\CTEFireBullets.h">
+      <Filter>SourceEngine\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CSPlayerResource.h">
+      <Filter>SourceEngine\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C_AnimationLayer.h">
+      <Filter>SourceEngine\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGameRulesProxy.h">
+      <Filter>SourceEngine\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientState.h">
+      <Filter>SourceEngine\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.hpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="datamap.h">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="memalloc.h">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SendDatagram.h">
+      <Filter>Source Files\Hooks\SendDatagram</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Source Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\TempEntities.h">
+      <Filter>Source Files\Hooks\TempEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="PunchAngleFix.h">
+      <Filter>Source Files\Features\PunchAngleFix</Filter>
+    </ClInclude>
+    <ClInclude Include="RebuildGameMovement.h">
+      <Filter>Source Files\Features\RebuildGameMovement</Filter>
+    </ClInclude>
+    <ClInclude Include="TickFix.h">
+      <Filter>Source Files\Features\TickFix</Filter>
+    </ClInclude>
+    <ClInclude Include="IconFont.h">
+      <Filter>Source Files\Menu\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuFont.h">
+      <Filter>Source Files\Menu\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Images.h">
+      <Filter>Source Files\Menu\Images</Filter>
+    </ClInclude>
+    <ClInclude Include="Freestanding.h">
+      <Filter>Source Files\Features\Freestanding</Filter>
+    </ClInclude>
+    <ClInclude Include="IViewRenderBeams.h">
+      <Filter>SourceEngine\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomSky.h">
+      <Filter>Source Files\Features\CustomSky</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\UtlVector.hpp">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\VarMap.h">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DisableInterp.h">
+      <Filter>Source Files\Features\DisableInterp</Filter>
+    </ClInclude>
+    <ClInclude Include="CVarManager.h">
+      <Filter>Source Files\Features\CVarManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Vars.h">
+      <Filter>Source Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="OnScreenSizeChanged.h">
+      <Filter>Source Files\Hooks\OnScreenSizeChanged</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\EmitSound.h">
+      <Filter>Source Files\Hooks\EmitSound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundESP.h">
+      <Filter>Source Files\Features\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Source Files\Features\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Source Files\Features\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="IWeaponSystem.h">
+      <Filter>SourceEngine\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CRender.h">
+      <Filter>Source Files\Features\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="ClosestToCrosshair.h">
+      <Filter>Source Files\Features\ClosestToCrosshair</Filter>
+    </ClInclude>
+    <ClInclude Include="SetupBones.h">
+      <Filter>Source Files\Hooks\SetupBones</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\GetViewModelFOV.h">
+      <Filter>Source Files\Hooks\GetViewModelFOV</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoneAccessor.h">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\CGlobalVarsBase.hpp">
+      <Filter>SourceEngine\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Accuracy.h">
+      <Filter>Source Files\Features\Accuracy</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerAnimationState.h">
+      <Filter>SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="InPrediction.h">
+      <Filter>Source Files\Hooks\InPrediction</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXHooks.h">
+      <Filter>Source Files\Hooks\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="fnv_hash.hpp">
+      <Filter>Source Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="DeveloperMessages.h">
+      <Filter>Source Files\Features\DeveloperMessages</Filter>
+    </ClInclude>
+    <ClInclude Include="BuyBot.h">
+      <Filter>Source Files\Features\BuyBot</Filter>
+    </ClInclude>
+    <ClInclude Include="vmthook.h">
+      <Filter>Source Files\Other</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Convar.cpp">
+      <Filter>SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\CRC.cpp">
+      <Filter>SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Vector.cpp">
+      <Filter>SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Vector2D.cpp">
+      <Filter>SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Vector4D.cpp">
+      <Filter>SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\VMatrix.cpp">
+      <Filter>SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\UtlString.cpp">
+      <Filter>SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SpoofedConvar.cpp">
+      <Filter>SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Protections\POSTChecks.cpp">
+      <Filter>Source Files\Protections</Filter>
+    </ClCompile>
+    <ClCompile Include="Protections\HWID\disphelper.c">
+      <Filter>Source Files\Protections\HWID</Filter>
+    </ClCompile>
+    <ClCompile Include="JSON\jsoncpp.cpp">
+      <Filter>Source Files\Protections\JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="Protections\CNetwork\Network.cpp">
+      <Filter>Source Files\Protections\CNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadLibraryHook.cpp">
+      <Filter>Source Files\Protections</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Source Files\Menu\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAim.cpp">
+      <Filter>Source Files\Features\AntiAim</Filter>
+    </ClCompile>
+    <ClCompile Include="Autowall.cpp">
+      <Filter>Source Files\Features\Autowall</Filter>
+    </ClCompile>
+    <ClCompile Include="Chams.cpp">
+      <Filter>Source Files\Features\Chams</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityESP.cpp">
+      <Filter>Source Files\Features\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="NadeTracer.cpp">
+      <Filter>Source Files\Features\NadeTracer</Filter>
+    </ClCompile>
+    <ClCompile Include="Triggerbot.cpp">
+      <Filter>Source Files\Features\Triggerbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Source Files\Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CSPlayer.cpp">
+      <Filter>SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="NetvarManager.cpp">
+      <Filter>SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinConfiguration.cpp">
+      <Filter>Source Files\Features\SkinChanger</Filter>
+    </ClCompile>
+    <ClCompile Include="KitParser.cpp">
+      <Filter>Source Files\Features\SkinChanger</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemDefinitions.cpp">
+      <Filter>Source Files\Features\SkinChanger</Filter>
+    </ClCompile>
+    <ClCompile Include="StickerChanger.cpp">
+      <Filter>Source Files\Features\SkinChanger</Filter>
+    </ClCompile>
+    <ClCompile Include="Protections\HWID\diskid32.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawManager.cpp">
+      <Filter>Source Files\Features\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="NoSpread.cpp">
+      <Filter>Source Files\Features\NoSpread</Filter>
+    </ClCompile>
+    <ClCompile Include="checksum_md5.cpp">
+      <Filter>Source Files\Other\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="GrenadePrediction.cpp">
+      <Filter>Source Files\Features\GrenadePrediction</Filter>
+    </ClCompile>
+    <ClCompile Include="NetvarHooks.cpp">
+      <Filter>Source Files\Hooks\NetvarHooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Legitbot.cpp">
+      <Filter>Source Files\Features\AimBot\Legitbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Ragebot.cpp">
+      <Filter>Source Files\Features\AimBot\Ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="NoSpreadBot.cpp">
+      <Filter>Source Files\Features\AimBot\NoSpreadBot</Filter>
+    </ClCompile>
+    <ClCompile Include="ClanTag.cpp">
+      <Filter>Source Files\Features\ClanTag</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationHandler.cpp">
+      <Filter>Source Files\Features\AnimationHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\SDK.cpp">
+      <Filter>SourceEngine\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="LagCompensation.cpp">
+      <Filter>Source Files\Features\LagCompensation</Filter>
+    </ClCompile>
+    <ClCompile Include="FakeLag.cpp">
+      <Filter>Source Files\Features\FakeLag</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoPistol.cpp">
+      <Filter>Source Files\Features\AutoPistol</Filter>
+    </ClCompile>
+    <ClCompile Include="Spammers.cpp">
+      <Filter>Source Files\Features\Spammers</Filter>
+    </ClCompile>
+    <ClCompile Include="RankRevealer.cpp">
+      <Filter>Source Files\Features\RankRevealer</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveFix.cpp">
+      <Filter>Source Files\Features\MoveFix</Filter>
+    </ClCompile>
+    <ClCompile Include="Knifebot.cpp">
+      <Filter>Source Files\Features\Knifebot</Filter>
+    </ClCompile>
+    <ClCompile Include="RCS.cpp">
+      <Filter>Source Files\Features\RCS</Filter>
+    </ClCompile>
+    <ClCompile Include="BHop.cpp">
+      <Filter>Source Files\Features\BHop</Filter>
+    </ClCompile>
+    <ClCompile Include="RecoilCrosshair.cpp">
+      <Filter>Source Files\Features\RecoilCrosshair</Filter>
+    </ClCompile>
+    <ClCompile Include="Resolver.cpp">
+      <Filter>Source Files\Features\Resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="NoSmoke.cpp">
+      <Filter>Source Files\Features\NoSmoke</Filter>
+    </ClCompile>
+    <ClCompile Include="PunchAngleFix.cpp">
+      <Filter>Source Files\Features\PunchAngleFix</Filter>
+    </ClCompile>
+    <ClCompile Include="RebuildGameMovement.cpp">
+      <Filter>Source Files\Features\RebuildGameMovement</Filter>
+    </ClCompile>
+    <ClCompile Include="TickFix.cpp">
+      <Filter>Source Files\Features\TickFix</Filter>
+    </ClCompile>
+    <ClCompile Include="Freestanding.cpp">
+      <Filter>Source Files\Features\Freestanding</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdPerson.cpp">
+      <Filter>Source Files\Features\ThirdPerson</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletTracer.cpp">
+      <Filter>Source Files\Features\BulletTracer</Filter>
+    </ClCompile>
+    <ClCompile Include="ASUSWalls.cpp">
+      <Filter>Source Files\Features\ASUSWalls</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldChams.cpp">
+      <Filter>Source Files\Features\WorldChams</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomSky.cpp">
+      <Filter>Source Files\Features\CustomSky</Filter>
+    </ClCompile>
+    <ClCompile Include="NameStealer.cpp">
+      <Filter>Source Files\Features\NameStealer</Filter>
+    </ClCompile>
+    <ClCompile Include="DisableInterp.cpp">
+      <Filter>Source Files\Features\DisableInterp</Filter>
+    </ClCompile>
+    <ClCompile Include="Vars.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="FakeWalk.cpp">
+      <Filter>Source Files\Features\FakeWalk</Filter>
+    </ClCompile>
+    <ClCompile Include="Glow.cpp">
+      <Filter>Source Files\Features\Glow</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Source Files\Features\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\Features\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundESP.cpp">
+      <Filter>Source Files\Features\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpectatorList.cpp">
+      <Filter>Source Files\Features\SpectatorList</Filter>
+    </ClCompile>
+    <ClCompile Include="AALines.cpp">
+      <Filter>Source Files\Features\AALines</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoWallCrosshair.cpp">
+      <Filter>Source Files\Features\AutoWallCrosshair</Filter>
+    </ClCompile>
+    <ClCompile Include="CRender.cpp">
+      <Filter>Source Files\Features\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="ClosestToCrosshair.cpp">
+      <Filter>Source Files\Features\ClosestToCrosshair</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldModifications.cpp">
+      <Filter>Source Files\Features\WorldModifications</Filter>
+    </ClCompile>
+    <ClCompile Include="IMaterial.cpp">
+      <Filter>SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Accuracy.cpp">
+      <Filter>Source Files\Features\Accuracy</Filter>
+    </ClCompile>
+    <ClCompile Include="DeveloperMessages.cpp">
+      <Filter>Source Files\Features\DeveloperMessages</Filter>
+    </ClCompile>
+    <ClCompile Include="BuyBot.cpp">
+      <Filter>Source Files\Features\BuyBot</Filter>
+    </ClCompile>
+    <ClCompile Include="vmthook.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\netvar_dump.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CSGO_Internal.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
